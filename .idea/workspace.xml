@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d97d8892-d47d-48f4-a2d2-75de8e714ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/AppBody.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/AppBody.tsx" afterDir="false" />
+    <list default="true" id="d97d8892-d47d-48f4-a2d2-75de8e714ae3" name="Default Changelist" comment="feat">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AppHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AppHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AppBody.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AppBody.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -78,7 +74,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jscs.settings.JscsSettingsPage" />
     <property name="ts.external.directory.path" value="C:\Users\matth\Desktop\react_tutorial\node_modules\typescript\lib" />
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -105,6 +101,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607818771135</updated>
     </task>
+    <task id="LOCAL-00001" summary="chores-App-boilerplate">
+      <created>1607883417346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607883417346</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +128,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="chores-App-boilerplate" />
+    <MESSAGE value="nothign" />
+    <MESSAGE value="feature" />
+    <MESSAGE value="feat-app-textfield" />
+    <MESSAGE value="feat/boilerplate added" />
+    <MESSAGE value="feat_boilerplate" />
+    <MESSAGE value="feat:  boiler plate added" />
+    <MESSAGE value="feat" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
