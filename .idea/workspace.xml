@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d97d8892-d47d-48f4-a2d2-75de8e714ae3" name="Default Changelist" comment="feat">
+    <list default="true" id="d97d8892-d47d-48f4-a2d2-75de8e714ae3" name="Default Changelist" comment="feat: Added new components">
+      <change afterPath="$PROJECT_DIR$/src/containers/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Counter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ReducerExample.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TextField.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AppBody.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AppBody.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AppBody.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +86,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="com.jscs.settings.JscsSettingsPage" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\matth\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
     <property name="ts.external.directory.path" value="C:\Users\matth\Desktop\react_tutorial\node_modules\typescript\lib" />
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -108,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607883417346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Added new components">
+      <created>1607884087963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607884087963</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +157,8 @@
     <MESSAGE value="feat_boilerplate" />
     <MESSAGE value="feat:  boiler plate added" />
     <MESSAGE value="feat" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat" />
+    <MESSAGE value="feat: Added new components" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Added new components" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

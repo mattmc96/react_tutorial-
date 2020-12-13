@@ -1,7 +1,7 @@
-import React from 'react';
-import AppHeader, { AppHeaderProps } from './containers/AppHeader';
-import AppBody from './containers/AppBody'
-import './App.css';
+import React from "react";
+import AppHeader, { AppHeaderProps } from "./containers/AppHeader";
+import AppBody from "./containers/TextField";
+import "./App.css";
 
 const bodyQuote = `
   Spicy jalapeno bacon ipsum dolor amet ball tip turducken brisket veniam beef ribs ipsum, ex pig doner strip steak t-bone.
@@ -23,30 +23,31 @@ const headerProps: AppHeaderProps = {
   links: [
     {
       label: "Logs",
-      route: "/logs/list"
+      route: "/logs/list",
     },
     {
       label: "New Entry",
-      route: "/logs/create"
-    }
-  ]
+      route: "/logs/create",
+    },
+  ],
 };
 
 const App: React.FC = () => {
   return (
     <main className="App">
-   <AppHeader
-       title={headerProps.title}
-       description={headerProps.description}
-       links={headerProps.links}
-   />
-   <AppBody header="My Dive Log Dashboard" quote={bodyQuote}>
-     <p>
-       I am a child element to the App Body and will be rendered in the App Body
-     </p>
-   </AppBody>
+      <AppHeader
+        title={headerProps.title}
+        description={headerProps.description}
+        links={headerProps.links}
+      />
+      <AppBody header="My Dive Log Dashboard" quote={bodyQuote}>
+        <p>
+          I am a child element to the App Body and will be rendered in the App
+          Body
+        </p>
+      </AppBody>
     </main>
   );
-}
+};
 
 export default App;
