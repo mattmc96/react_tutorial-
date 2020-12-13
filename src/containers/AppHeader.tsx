@@ -1,7 +1,7 @@
 import React from 'react'
 
 import "./AppHeader.css"
-import AppHeaderNavLink, { NavLink } from './AppHeaderNavLink'
+import AppHeaderNavLink, { NavLink } from '../components/AppHeaderNavLink'
 
 // Define our AppHeader properties that will be passed into the component
 export type AppHeaderProps = {
@@ -12,7 +12,7 @@ export type AppHeaderProps = {
 
 // Create React Functional Component variable that will render our code for our header
 // React.FC takes a type of the props that can be passed into the component
-const AppHeader: React.Fc<AppHeaderProps> = React.memo(({ title, description, links }) => {
+const AppHeader: React.FC<AppHeaderProps> = React.memo(({ title, description, links }) => {
         return (
             <header className="app-header">
                 <section className="app-header">
@@ -35,4 +35,5 @@ const AppHeader: React.Fc<AppHeaderProps> = React.memo(({ title, description, li
         )
    }
 )
+
 export default AppHeader
