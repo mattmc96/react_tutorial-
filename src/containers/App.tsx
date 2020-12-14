@@ -1,10 +1,18 @@
 import React from "react";
-import { TextField } from "./TextField";
 
-export const App: React.FC = () => {
+const App: React.FC = () => {
   return (
     <div>
-      <TextField text="hello" person={{ firstName: "Matt", lastName: "McC" }} />
+      <Counter>
+        {(count, setCount) => (
+          <div>
+            {count}
+            <button onClick={() => setCount(count + 1)}>+</button>
+          </div>
+        )}
+      </Counter>
     </div>
   );
 };
+
+export default App;
